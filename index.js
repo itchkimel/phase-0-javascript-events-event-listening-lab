@@ -1,7 +1,9 @@
-const input = document.getElementById('input');
 
 function addingEventListener() {
-  return("I was clicked!");
+  const input = document.getElementById('input');
+  input.addEventListener('click', function() {
+    alert('I was clicked!');
+  }); 
 }
 
 /*
@@ -20,4 +22,4 @@ function clickAlert() {
 
 div5.addEventListener('click', clickAlert);
 */
-input.addEventListener('click', addingEventListener);
+//input.addEventListener('click', addingEventListener);

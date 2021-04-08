@@ -1,11 +1,11 @@
 
 function addingEventListener() {
-  const input = document.getElementById('input');
+  const input = document.querySelector('#input');
   input.addEventListener('click', function() {
     alert('I was clicked!');
   }); 
 }
-
+addingEventListener()
 /*
 input.addEventListener('click', function) {
   alert('I was clicked!');
